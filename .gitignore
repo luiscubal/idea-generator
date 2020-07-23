@@ -1,0 +1,2 @@
+node_modules/
+# Do not ignore dist, otherwise Github Pages won't work

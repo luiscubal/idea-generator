@@ -1,0 +1,122 @@
+html {
+  background-color: #555;
+}
+body {
+  max-width: 1000px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #eee;
+}
+h1 {
+  text-align: center;
+  border: solid black 0px;
+  border-width: 1px 0px;
+  margin-bottom: 0;
+  background: #f7f7f7;
+}
+#idea-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.idea {
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  border-top: solid black 1px;
+}
+.idea:first-child {
+  border-width: 0;
+}
+.concept {
+  display: inline-block;
+  border: solid black 1px;
+  width: 180px;
+  height: 150px;
+  margin: 8px;
+  background-color: white;
+}
+.concept h2 {
+  border: solid black 0px;
+  border-width: 1px 0px;
+}
+.concept.category-animal {
+  background-color: #e5dd3d;
+}
+.concept.category-building {
+  background-color: #fcb879;
+}
+.concept.category-location {
+  background-color: #88eac8;
+}
+.concept.category-misc {
+  background-color: #f49aa7;
+}
+.concept.category-object {
+  background-color: #f4e8dc;
+}
+.concept.category-plantlike {
+  background-color: #9de03a;
+}
+.concept.category-profession {
+  background-color: #a7e1ef;
+}
+.concept.category-theme {
+  background-color: #c9a7ef;
+}
+.concept.category-vehicle {
+  background-color: #abc7ce;
+}
+.concept.category-historical-events {
+  background-color: #d89e6c;
+}
+.concept.category-genre {
+  background-color: #b0b798;
+}
+.concept.category-architecture {
+  background-color: #5719a8;
+  color: white;
+}
+.concept.category-architecture h2 {
+  border-color: white;
+}
+.concept.category-space-location {
+  background-color: #132763;
+  color: white;
+}
+.concept.category-space-location h2 {
+  border-color: white;
+}
+.concept.category-weapon {
+  background-color: #2b1817;
+  color: white;
+}
+.concept.category-weapon h2 {
+  border-color: white;
+}
+.concept.category-health {
+  background-color: #993333;
+  color: white;
+}
+.concept.category-health h2 {
+  border-color: white;
+}
+.pool-ideas-message {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 3px;
+  border: solid #333 0;
+  border-width: 1px 0px;
+  color: #333;
+}
+.pool-ideas-message #num-concepts,
+.pool-ideas-message #num-ideas {
+  font-weight: bold;
+}
